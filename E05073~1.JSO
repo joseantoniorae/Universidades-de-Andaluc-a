@@ -1,0 +1,348 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "locn": "http://www.w3.org/ns/locn#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "schema1": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "voaf": "http://purl.org/vocommons/voaf#",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/fac87ba2-cf2a-4acc-a2a9-3327fbe3f8bb",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://estadisticas.universidades.gob.es/jaxiPx/files/_px/es/px/Universitaria/Personal/EPU23/PU/PU_RATIOS/l0/PU0401.px"
+      },
+      "dct:format": {
+        "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/fac87ba2-cf2a-4acc-a2a9-3327fbe3f8bb/format"
+      },
+      "dct:license": {
+        "@id": "https://www.ciencia.gob.es/Ministerio/Estadisticas/ReutilizacionDatos/"
+      },
+      "dct:title": {
+        "@language": "es",
+        "@value": "Ratios en universidades presenciales por tipo de universidad (Pc-Axis)"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/767509b8-3782-40a4-a0b4-6b80da2debe8/format",
+      "@type": "dct:IMT",
+      "rdf:value": "text/csv",
+      "rdfs:label": "CSV"
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/767509b8-3782-40a4-a0b4-6b80da2debe8",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://estadisticas.universidades.gob.es/jaxiPx/files/_px/es/csv_sc/Universitaria/Personal/EPU23/PU/PU_RATIOS/l0/PU0401.px"
+      },
+      "dct:format": {
+        "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/767509b8-3782-40a4-a0b4-6b80da2debe8/format"
+      },
+      "dct:license": {
+        "@id": "https://www.ciencia.gob.es/Ministerio/Estadisticas/ReutilizacionDatos/"
+      },
+      "dct:title": {
+        "@language": "es",
+        "@value": "Ratios en universidades presenciales por tipo de universidad (CSV separado por ;)"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/Frequency",
+      "@type": "dct:Frequency",
+      "rdf:value": {
+        "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/DurationDescription"
+      }
+    },
+    {
+      "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401",
+      "@type": "foaf:Agent",
+      "dct:identifier": "E05073401",
+      "foaf:name": {
+        "@language": "es",
+        "@value": "Ministerio de Universidades [EXTINTO]"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad",
+      "@type": "dcat:Dataset",
+      "dcat:distribution": [
+        {
+          "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/686143d2-8b39-481c-9610-3fbc965468b2"
+        },
+        {
+          "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/3b14d9f6-7a01-4635-95cf-2aa4a5068a4a"
+        },
+        {
+          "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/767509b8-3782-40a4-a0b4-6b80da2debe8"
+        },
+        {
+          "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/fac87ba2-cf2a-4acc-a2a9-3327fbe3f8bb"
+        },
+        {
+          "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/131168ca-5ffd-4a91-b5e7-225ef5b79ff1"
+        },
+        {
+          "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/d8d6e334-386e-4997-b131-c6e54f291884"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@language": "es",
+          "@value": "Ratio Estudiantes/PDI Doctor(en ETC)"
+        },
+        {
+          "@language": "es",
+          "@value": "Total"
+        },
+        {
+          "@language": "es",
+          "@value": "Privada"
+        },
+        {
+          "@language": "es",
+          "@value": "Ratio PDI/PTGAS(en ETC)"
+        },
+        {
+          "@language": "es",
+          "@value": "PDI en ETC"
+        },
+        {
+          "@language": "es",
+          "@value": "Ratio Estudiantes/PTGAS(en ETC)"
+        },
+        {
+          "@language": "es",
+          "@value": "Pública"
+        },
+        {
+          "@language": "es",
+          "@value": "Sistema Integrado de Información Universitaria"
+        },
+        {
+          "@language": "es",
+          "@value": "Tipo de universidad"
+        },
+        {
+          "@language": "es",
+          "@value": "SIIU"
+        },
+        {
+          "@language": "es",
+          "@value": "PDI Doctor en ETC"
+        },
+        {
+          "@language": "es",
+          "@value": "Indicador"
+        },
+        {
+          "@language": "es",
+          "@value": "Estudiantes en ETC"
+        },
+        {
+          "@language": "es",
+          "@value": "Ratio Estudiantes/PDI(en ETC)"
+        },
+        {
+          "@language": "es",
+          "@value": "PTGAS en ETC"
+        }
+      ],
+      "dcat:theme": {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/educacion"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/Frequency"
+      },
+      "dct:description": {
+        "@language": "es",
+        "@value": "Tabla de EDUCAbase Ratios en universidades presenciales por tipo de universidad. Indicadores de personal de las universidades: Ratios. Resultados nacionales. Anual."
+      },
+      "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/PU0401",
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-01-28T13:44:55+01:00"
+      },
+      "dct:publisher": {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401"
+      },
+      "dct:spatial": {
+        "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+      },
+      "dct:temporal": {
+        "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/PeriodOfTime-1"
+      },
+      "dct:title": {
+        "@language": "es",
+        "@value": "Ratios en universidades presenciales por tipo de universidad"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/3b14d9f6-7a01-4635-95cf-2aa4a5068a4a",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://estadisticas.universidades.gob.es/jaxiPx/files/_px/es/csv/Universitaria/Personal/EPU23/PU/PU_RATIOS/l0/PU0401.px"
+      },
+      "dct:format": {
+        "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/3b14d9f6-7a01-4635-95cf-2aa4a5068a4a/format"
+      },
+      "dct:license": {
+        "@id": "https://www.ciencia.gob.es/Ministerio/Estadisticas/ReutilizacionDatos/"
+      },
+      "dct:title": {
+        "@language": "es",
+        "@value": "Ratios en universidades presenciales por tipo de universidad (CSV separados por tabuladores)"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/686143d2-8b39-481c-9610-3fbc965468b2",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://estadisticas.universidades.gob.es/jaxiPx/files/_px/es/xlsx/Universitaria/Personal/EPU23/PU/PU_RATIOS/l0/PU0401.px"
+      },
+      "dct:format": {
+        "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/686143d2-8b39-481c-9610-3fbc965468b2/format"
+      },
+      "dct:license": {
+        "@id": "https://www.ciencia.gob.es/Ministerio/Estadisticas/ReutilizacionDatos/"
+      },
+      "dct:title": {
+        "@language": "es",
+        "@value": "Ratios en universidades presenciales por tipo de universidad (XLSX)"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/686143d2-8b39-481c-9610-3fbc965468b2/format",
+      "@type": "dct:IMT",
+      "rdf:value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "rdfs:label": "XLSX"
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/d8d6e334-386e-4997-b131-c6e54f291884",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://estadisticas.universidades.gob.es/jaxiPx/files/_px/es/xls/Universitaria/Personal/EPU23/PU/PU_RATIOS/l0/PU0401.px"
+      },
+      "dct:format": {
+        "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/d8d6e334-386e-4997-b131-c6e54f291884/format"
+      },
+      "dct:license": {
+        "@id": "https://www.ciencia.gob.es/Ministerio/Estadisticas/ReutilizacionDatos/"
+      },
+      "dct:title": {
+        "@language": "es",
+        "@value": "Ratios en universidades presenciales por tipo de universidad (XLS)"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/DurationDescription",
+      "@type": "time:DurationDescription",
+      "time:years": {
+        "@type": "xsd:decimal",
+        "@value": "1"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/record",
+      "@type": "dcat:CatalogRecord",
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2021-04-07T06:39:46.435672+02:00"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-06-06T07:24:53.768929+02:00"
+      },
+      "foaf:primaryTopic": {
+        "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/131168ca-5ffd-4a91-b5e7-225ef5b79ff1/format",
+      "@type": "dct:IMT",
+      "rdf:value": "text/csv",
+      "rdfs:label": "CSV"
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/3b14d9f6-7a01-4635-95cf-2aa4a5068a4a/format",
+      "@type": "dct:IMT",
+      "rdf:value": "text/csv",
+      "rdfs:label": "CSV"
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/fac87ba2-cf2a-4acc-a2a9-3327fbe3f8bb/format",
+      "@type": "dct:IMT",
+      "rdf:value": "text/pc-axis",
+      "rdfs:label": "PC-Axis"
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/d8d6e334-386e-4997-b131-c6e54f291884/format",
+      "@type": "dct:IMT",
+      "rdf:value": "application/vnd.ms-excel",
+      "rdfs:label": "XLS"
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/PeriodOfTime-1",
+      "@type": "dct:PeriodOfTime",
+      "dcat:endDate": {
+        "@type": "xsd:dateTime",
+        "@value": "2023-01-01T01:00:00+01:00"
+      },
+      "dcat:startDate": {
+        "@type": "xsd:dateTime",
+        "@value": "2015-01-01T01:00:00+01:00"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/131168ca-5ffd-4a91-b5e7-225ef5b79ff1",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://estadisticas.universidades.gob.es/jaxiPx/files/_px/es/csv_c/Universitaria/Personal/EPU23/PU/PU_RATIOS/l0/PU0401.px"
+      },
+      "dct:format": {
+        "@id": "https://datos.gob.es/catalogo/e05073401-estadistica-de-personal-en-las-universidades-personal-de-las-universidades-pu-resultados-nacionales-ratios-en-universidades-presenciales-por-tipo-de-universidad/resource/131168ca-5ffd-4a91-b5e7-225ef5b79ff1/format"
+      },
+      "dct:license": {
+        "@id": "https://www.ciencia.gob.es/Ministerio/Estadisticas/ReutilizacionDatos/"
+      },
+      "dct:title": {
+        "@language": "es",
+        "@value": "Ratios en universidades presenciales por tipo de universidad (CSV separado por coma)"
+      }
+    }
+  ]
+}

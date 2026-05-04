@@ -15,22 +15,22 @@ var config = {
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: 'Your Title Goes Here',
-    subtitle: 'The Storytelling Template helps you create an awesome animated map story with ease.',
-    byline: 'By a I.M. Amapper',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    title: 'Universidades de Andalucía',
+    subtitle: 'Sedes de los rectorados',
+    byline: 'José Antonio G. Bermúdez',
+    footer: 'Sede del rectorado de la Universidad de Granada, conocido como Hospital Real.',
     chapters: [
         {
             id: 'slug-style-id',
             alignment: 'left',
             hidden: false,
-            title: 'San Francisco',
-            image: './assets/san-fran.jpeg',
+            title: 'Universidad de Granada',
+            image: 'https://es.wikipedia.org/wiki/Hospital_Real_de_Granada',
             description: 'The first chapter contains a title, image, and camera view for San Francisco, California. Update the chapter data to make it your own.',
             location: {
-                center: [-122.418398, 37.759483],
-                zoom: 8.5,
-                pitch: 60,
+                center: [-3.60106, 37.18495],
+                zoom: 17.12,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',

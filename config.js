@@ -1,117 +1,41 @@
 var config = {
-    // style: 'mapbox://styles/mapbox/streets-v12',
-    // leave commented to use Mapbox Standard Style
-    accessToken: 'YOUR_MAPBOX_ACCESS_TOKEN',
-    showMarkers: true,
-    markerColor: '#3FB1CE',
-    //projection: 'equirectangular',
-    //Read more about available projections here
-    //https://docs.mapbox.com/mapbox-gl-js/example/projections/
-    inset: true,
-    insetOptions: {
-        markerColor: 'orange'
+    var config = {
+  accessToken: 'TU_TOKEN_AQUI',
+  style: 'mapbox://styles/mapbox/dark-v11',
+
+  showMarkers: true,
+  markerColor: '#3FB1CE',
+
+  theme: 'dark',
+  title: 'Universidades de Andalucía',
+  subtitle: 'Sedes de los rectorados',
+
+  chapters: [
+    {
+      id: 'granada',
+      alignment: 'left',
+      title: 'Universidad de Granada',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/5/5a/Hospital_Real_Granada.jpg',
+      description: 'El Hospital Real es la sede histórica del rectorado de la UGR.',
+      location: {
+        center: [-3.60106, 37.18495],
+        zoom: 16,
+        pitch: 0,
+        bearing: 0
+      }
     },
-    insetPosition: 'bottom-right',
-    theme: 'dark',
-    use3dTerrain: false, //set true for enabling 3D maps.
-    auto: false,
-    title: 'Universidades de Andalucía',
-    subtitle: 'Sedes de los rectorados',
-    byline: 'José Antonio G. Bermúdez',
-    footer: 'Sede del rectorado de la Universidad de Granada, conocido como Hospital Real.',
-    chapters: [
-        {
-            id: 'slug-style-id',
-            alignment: 'left',
-            hidden: false,
-            title: 'Universidad de Granada',
-            image: 'https://es.wikipedia.org/wiki/Hospital_Real_de_Granada',
-            description: 'The first chapter contains a title, image, and camera view for San Francisco, California. Update the chapter data to make it your own.',
-            location: {
-                center: [-3.60106, 37.18495],
-                zoom: 17.12,
-                pitch: 0,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
-        {
-            id: 'second-identifier',
-            alignment: 'right',
-            hidden: false,
-            title: 'Washington, D.C.',
-            image: './assets/washington-dc.jpg',
-            description: 'The second chapter flies to Washington, D.C., updates the camera pitch, and slowly rotates. <br>  <br> Washington, D.C., the capital of the United States, is a vibrant city known for its iconic landmarks, including the White House, the U.S. Capitol, and the Washington Monument. It serves as the political heart of the nation and a center for history, culture, and international diplomacy.',
-            location: {
-                center: [-77.020636, 38.886900],
-                zoom: 8.5,
-                pitch: 60,
-                bearing: -43.2,
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'third-identifier',
-            alignment: 'left',
-            hidden: false,
-            title: 'Geneva',
-            image: './assets/geneva.jpg',
-            description: 'Geneva, Switzerland, is a picturesque city nestled along the shores of Lake Geneva, surrounded by the Alps and Jura mountains. Known as a global hub for diplomacy and finance, it is home to numerous international organizations, including the United Nations and the Red Cross.',
-            location: {
-                center: [6.15116, 46.20595],
-                zoom: 12.52,
-                pitch: 8.01,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'fourth-chapter',
-            alignment: 'fully',
-            hidden: false,
-            title: 'Buenos Aires',
-            image: './assets/buenos-aires.jpg',
-            description: 'Buenos Aires, the capital of Argentina, is a dynamic city known for its European-inspired architecture, vibrant tango culture, and rich culinary scene. Often called the "Paris of South America," it blends historic charm with modern energy.  You can add as many chapters as you need, just copy the JSON data and make changes.',
-            location: {
-                center: [-58.54195, -34.71600],
-                zoom: 4,
-                pitch: 0,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        }
-    ]
+    {
+      id: 'sevilla',
+      alignment: 'right',
+      title: 'Universidad de Sevilla',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Universidad_de_Sevilla_-_Rectorado.jpg',
+      description: 'El rectorado se ubica en la antigua Real Fábrica de Tabacos.',
+      location: {
+        center: [-5.9915, 37.3772],
+        zoom: 16,
+        pitch: 0,
+        bearing: 0
+      }
+    }
+  ]
 };
